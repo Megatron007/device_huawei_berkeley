@@ -46,6 +46,10 @@ BOARD_HAVE_BLUETOOTH := true
 # Extended Filesystem Support
 TARGET_EXFAT_DRIVER := exfat
 
+# Lineage hardware
+BOARD_HARDWARE_CLASS += \
+    $(DEVICE_PATH)/lineagehw
+
 # Partitions
 BOARD_SYSTEMIMAGE_PARTITION_SIZE := 3707764736
 
